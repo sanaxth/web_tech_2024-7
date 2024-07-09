@@ -1,0 +1,12 @@
+music_library/
+│
+├── css/
+│   └── style.css
+├── includes/
+│   └── db.php
+├── index.php
+├── add_song.php
+├── create_playlist.php
+├── view_playlists.php
+├── suggest_song.php
+└── playlist.php

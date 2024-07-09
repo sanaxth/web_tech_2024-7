@@ -1,0 +1,111 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://wallpapercave.com/wp/wp3392741.jpg');
+}
+.container1 {
+    max-width: 800px;
+    margin: 0 auto; /* Center horizontally */
+    padding: 30px;
+    background-color:none;
+    border-radius: 1000px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center; /* Center the text inside the container */
+    position: fixed; /* Fix the container at the top of the viewport */
+    top: -100px; /* Align to the top */
+    left: 50%; /* Position left in the center */
+    transform: translateX(-50%); /* Adjust position to center */
+    color: rgb(228, 33, 33);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container {
+    max-width: 700px;
+    margin: auto; /* Top and bottom margins only */
+    padding: 60px;
+    background-color: rgb(31, 31, 31);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(36, 35, 35, 0.1);
+    position: relative;
+    left: -400px; /* Adjust this value to position the container */
+}
+
+h3 {
+    color: #19e20b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+}
+
+
+h1, h2 {
+    color: #0bace2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="submit"] {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #33ca4c;
+    color: rgb(212, 191, 191);
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #000000;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #e0d5d5;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+a {
+    color: #0a0202;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}   
+
+a:hover {
+    color: #279b2a;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: rgb(243, 236, 236);
+    text-decoration: none;
+    border-radius: 3px;
+    margin-right: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-decoration-line:unset;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
